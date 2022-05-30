@@ -13,12 +13,31 @@
     .testimonial .content {
         width: 72%;
     }
+
     .testimonial .image {
         width: 25%;
     }
+
 /* Section benefits */
     .benefits .card {
         width: 48%;
+    }
+
+/* Section about-us */
+    .col.left {
+        width: 55%;
+    }
+
+    .col.right {
+        width: 40%;
+    }
+
+    .about-us .container {
+        padding:0 20px;
+    }
+/* Section get start */
+    .get-started .container {
+        max-width: 650px;
     }
 }
 
@@ -49,15 +68,30 @@
         width: 48%;
     }
 
-    .planning .container {
+    .planning .cards {
         width: 65%;
+        margin: auto;
     }
 
     .dev.card {
         align-self: flex-end;
     }
+
 /* Section benefits */
     .benefits .card {
         width: 32%;
+    }
+
+/* Section about us */
+    .col.left {
+        width: 66%;
+    }
+
+    .col.right {
+        width: 30%;
+    }
+
+    .about-us .container {
+        padding:0 40px;
     }
 }

@@ -124,7 +124,7 @@ header {
     text-align: center;
 }
 
-.testimonial .content.text {
+.content.text {
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -144,4 +144,22 @@ header {
 .benefits .card {
     background-color: white;
     border-radius: 20px;
+}
+
+/* Section about us */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+/* Section get started */
+.get-started {
+    background-color: var(--purple);
 }
