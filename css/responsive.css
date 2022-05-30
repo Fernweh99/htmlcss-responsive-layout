@@ -16,7 +16,13 @@
     .testimonial .image {
         width: 25%;
     }
+/* Section benefits */
+    .benefits .card {
+        width: 48%;
+    }
 }
+
+/* --------------------------------------------------------------------- */
 
 @media screen and (min-width:992px) {
 /* Header */
@@ -49,5 +55,9 @@
 
     .dev.card {
         align-self: flex-end;
+    }
+/* Section benefits */
+    .benefits .card {
+        width: 32%;
     }
 }

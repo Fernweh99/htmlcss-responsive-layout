@@ -135,3 +135,13 @@ header {
     background-color: var(--purple);
     border-radius: 35px;
 }
+
+/* Section benefits */
+.benefits {
+    background-color: var(--purple);
+}
+
+.benefits .card {
+    background-color: white;
+    border-radius: 20px;
+}
