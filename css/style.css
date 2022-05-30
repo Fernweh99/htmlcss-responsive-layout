@@ -11,3 +11,59 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+li {
+    list-style-type: none;
+}
+
+/* Utils */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.brd {
+    border: 2px dashed black;
+}
+
+/* Header */
+header {
+    padding: 0 20px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--blue);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    height: 50px;
+    flex-basis: 25%;
+}
+
+.nav {
+    height: 50px;
+    flex-basis: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ham-menu {
+    height: 100%;
+    min-width:30px ;
+}
+
+.link {
+    display: none;
+    height: 100%;
+}
