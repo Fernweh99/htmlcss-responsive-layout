@@ -9,6 +9,13 @@
     }
 /* Section planning */
 
+/* Section testimonial */
+    .testimonial .content {
+        width: 72%;
+    }
+    .testimonial .image {
+        width: 25%;
+    }
 }
 
 @media screen and (min-width:992px) {

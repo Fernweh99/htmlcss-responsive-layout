@@ -117,3 +117,21 @@ header {
     border-radius: 25px;
     min-height: 100px;
 }
+
+/* Section testimonial */
+.testimonial .content {
+    min-height: 100px;
+    text-align: center;
+}
+
+.testimonial .content.text {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.testimonial .card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--purple);
+    border-radius: 35px;
+}
