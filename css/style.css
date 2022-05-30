@@ -24,7 +24,7 @@ li {
 
 section{
     padding: 50px 30px;
-    min-height: 600px;
+    min-height: 100px;
 }
 
 /* Utils */
@@ -79,6 +79,12 @@ header {
 }
 
 /* Section blocks blue */
+.blocks .card{
+    background-color: var(--lightblue);
+    border-radius: 20px;
+}
+
+/* Utils Card */
 .cards, .big {
     display: flex;
     flex-wrap: wrap;
@@ -88,8 +94,6 @@ header {
 .card {
     width: 100%;
     min-height: 200px;
-    background-color: var(--lightblue);
-    border-radius: 20px;
     margin-bottom: 20px;
 }
 
@@ -101,4 +105,15 @@ header {
 .image {
     min-height: 200px;
     width: 100%;
+}
+
+/* Section planning */
+.planning {
+    background-color: var(--purple);
+}
+
+.dev.card {
+    background-color: white;
+    border-radius: 25px;
+    min-height: 100px;
 }

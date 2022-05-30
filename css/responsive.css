@@ -1,12 +1,14 @@
 @media screen and (min-width:768px) {
 /* Section blocks blue */
-    .card.big{
-        width: 66%;
-    }
-
-    .card {
+    .blocks .card {
         width: 32%;
     }
+
+    .big.card{
+        width: 66%;
+    }
+/* Section planning */
+
 }
 
 @media screen and (min-width:992px) {
@@ -27,5 +29,18 @@
 /* Section blocks blue */
     .big .content, .big .image {
         width: 50%;
+    }
+
+/* Section planning */
+    .planning .card {
+        width: 48%;
+    }
+
+    .planning .container {
+        width: 65%;
+    }
+
+    .dev.card {
+        align-self: flex-end;
     }
 }
