@@ -37,7 +37,11 @@
     }
 /* Section get start */
     .get-started .container {
-        max-width: 650px;
+        max-width: 600px;
+    }
+/* Footer */
+    footer .container {
+        max-width: 500px;
     }
 }
 

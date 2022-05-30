@@ -163,3 +163,9 @@ header {
 .get-started {
     background-color: var(--purple);
 }
+
+/* Footer */
+footer {
+    background-color: var(--black);
+    padding: 50px 30px;
+}
