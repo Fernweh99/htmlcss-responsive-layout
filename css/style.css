@@ -1,0 +1,13 @@
+:root {
+    --blue:#0084FD;
+    --purple:#9792E4;
+    --oran-yell:#FDC15F;
+    --black:#333333;
+}
+
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
