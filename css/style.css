@@ -1,5 +1,6 @@
 :root {
     --blue:#0084FD;
+    --lightblue:#B5DDFF;
     --purple:#9792E4;
     --oran-yell:#FDC15F;
     --black:#333333;
@@ -13,8 +14,17 @@
 }
 
 /* Generics */
+body{
+    padding-top: 80px;
+}
+
 li {
     list-style-type: none;
+}
+
+section{
+    padding: 50px 30px;
+    min-height: 600px;
 }
 
 /* Utils */
@@ -29,7 +39,7 @@ li {
 
 /* Header */
 header {
-    padding: 0 20px;
+    padding: 0 30px;
     height: 80px;
     position: fixed;
     top: 0;
@@ -66,4 +76,29 @@ header {
 .link {
     display: none;
     height: 100%;
+}
+
+/* Section blocks blue */
+.cards, .big {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 100%;
+    min-height: 200px;
+    background-color: var(--lightblue);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    min-height: 200px;
+    width: 100%;
+}
+
+.image {
+    min-height: 200px;
+    width: 100%;
 }
