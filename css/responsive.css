@@ -81,12 +81,18 @@
     }
 
     .planning .cards {
-        width: 65%;
+        width: 80%;
         margin: auto;
     }
 
     .dev.card {
         align-self: flex-end;
+        padding: 30px 45px;
+    }
+
+    .dev.card img {
+        width: 80%;
+        margin: 0 auto;
     }
 
 /* Section benefits */
