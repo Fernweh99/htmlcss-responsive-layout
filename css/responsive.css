@@ -14,12 +14,17 @@
 /* Section planning */
 
 /* Section testimonial */
-    .testimonial .content {
-        width: 72%;
+    .testimonial .card .content {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
     }
 
     .testimonial .image {
-        width: 25%;
+        width: 30%;
+        padding-bottom: 20px ;
     }
 
 /* Section benefits */
@@ -66,7 +71,6 @@
     }
 
     .link li{
-        min-width: 30px;
         height: 100%;
         display: inline-block;
 }

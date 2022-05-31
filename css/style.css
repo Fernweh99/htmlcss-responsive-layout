@@ -25,7 +25,6 @@ li {
 
 section{
     padding: 50px 30px;
-    min-height: 100px;
 }
 
 header a, main a {
@@ -51,7 +50,7 @@ h1 {
 
 p {
     margin-bottom: 30px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 img {
@@ -85,7 +84,28 @@ img {
     margin-bottom: 80px;
 }
 
+/* Utils image testimonial */
+.circle-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
 
+.circle-img.test1 {
+    background-image: url(../img/testimonial1.jpg);
+}
+
+.circle-img.test2 {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+.circle-img.test3 {
+    background-image: url(../img/testimonial3.jpg);
+}
 
 /* Utils button */
 .btn {
@@ -161,7 +181,6 @@ header {
 
 .ham-menu {
     height: 50px;
-    min-width:30px;
     font-size: 1.2em;
     line-height: 50px;
 }
@@ -205,6 +224,12 @@ header .btn {
     margin-bottom: 20px;
 }
 
+.intro .image {
+    padding: 0 20px ;
+    max-width: 280px;
+    align-self: end;
+}
+
 /* Utils Card */
 .cards, .big {
     display: flex;
@@ -214,20 +239,17 @@ header .btn {
 
 .card {
     width: 100%;
-    min-height: 200px;
     margin-bottom: 25px;
 }
 
 .content {
-    min-height: 200px;
     padding: 30px;
     width: 100%;
 }
 
 .image {
     padding: 0 20px ;
-    max-width: 280px;
-    align-self: end;
+    width: 100%;
 }
 
 /* Section planning */
@@ -238,7 +260,6 @@ header .btn {
 .dev.card {
     background-color: white;
     border-radius: 45px;
-    min-height: 100px;
     padding: 30px 20px;
 }
 
@@ -248,7 +269,6 @@ header .btn {
 
 /* Section testimonial */
 .testimonial .content {
-    min-height: 100px;
     text-align: center;
 }
 
@@ -262,6 +282,15 @@ header .btn {
     flex-wrap: wrap;
     background-color: var(--purple);
     border-radius: 35px;
+}
+
+.testimonial .name {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.testimonial .content i {
+    font-size: 22px;
 }
 
 /* Section benefits */
@@ -287,7 +316,6 @@ header .btn {
 
 .col {
     width: 100%;
-    min-height: 200px;
     margin-bottom: 20px;
 }
 
