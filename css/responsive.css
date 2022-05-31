@@ -38,12 +38,13 @@
     }
 
     .col.right {
-        width: 40%;
+        width: 30%;
     }
 
     .about-us .container {
         padding:0 20px;
     }
+
 /* Section get start */
     .get-started .container {
         max-width: 600px;
@@ -106,11 +107,11 @@
 
 /* Section about us */
     .col.left {
-        width: 66%;
+        width: 65%;
     }
 
     .col.right {
-        width: 30%;
+        width: 25%;
     }
 
     .about-us .container {
