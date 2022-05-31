@@ -319,6 +319,14 @@ header .btn {
     margin-bottom: 20px;
 }
 
+.about-us .circle {
+    width: 194px;
+}
+
+.about-us img {
+    border-radius: 50%;
+}
+
 /* Section get started */
 .get-started {
     background-color: var(--purple);
