@@ -15,7 +15,7 @@
 
 /* Section testimonial */
     .testimonial .card .content {
-        width: 70%;
+        width: calc(100% - 260px);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -23,7 +23,7 @@
     }
 
     .testimonial .image {
-        width: 30%;
+        width: 255px;
         padding-bottom: 20px ;
     }
 
@@ -49,10 +49,25 @@
     .get-started .container {
         max-width: 600px;
     }
+
 /* Footer */
     footer .container {
         max-width: 500px;
     }
+
+/* Fonts */
+    .testimonial p{
+        font-size: 19px;
+    }
+
+    .testimonial h2{
+        font-size: 45px;
+    }
+
+    .intro p {
+        font-size: 18px;
+    }
+
 }
 
 /* --------------------------------------------------------------------- */
@@ -64,17 +79,40 @@
 
 /* Header */
     .link {
-        display: block;
+        display: inline;
+        position:static;
+        height: 50px;
+        line-height: 50px;
     }
 
-    .ham-menu {
+    .ham-menu i{
         display: none;
+    }
+
+    .nav .ham-menu:hover .link {
+        display: inline;
     }
 
     .link li{
         height: 100%;
         display: inline-block;
-}
+    }
+
+    header .btn {
+        height: 40px;
+        border-radius: 25px;
+        line-height: 40px;
+        text-align: center;
+        display: inline-block;
+        font-weight: 700;
+        padding: 0 50px;
+        width: auto;
+        color: black;
+        font-weight: 400;
+        padding: 0 10px;
+        background-color: white;
+    }
+
 /* Section intro blue */
     .big .content, .big .image {
         width: 50%;

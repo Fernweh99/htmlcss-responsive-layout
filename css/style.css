@@ -108,7 +108,7 @@ img {
 }
 
 /* Utils button */
-.btn {
+main .btn {
     height: 40px;
     border-radius: 25px;
     line-height: 40px;
@@ -184,19 +184,23 @@ header {
     height: 50px;
     font-size: 1.2em;
     line-height: 50px;
+    position: relative;
 }
 
 .link {
+    position:absolute;
+    top: 48px;
+    right: -30px;
     display: none;
-    height: 50px;
+    height: auto;
+    width: 150px;
+    border-radius: 5px;
     line-height: 50px;
+    background-color: #0084FD;
 }
 
-header .btn {
-    width: auto;
-    color: black;
-    font-weight: 400;
-    padding: 0 10px;
+.nav .ham-menu:hover .link {
+    display: block;
 }
 
 /* Section intro blue */
